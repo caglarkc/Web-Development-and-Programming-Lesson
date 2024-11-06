@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d9f0ff;
+    padding: 12px 22px;
+}
+
+.header-left .logo {
+    width: 45px;
+    margin-right: 12px;
+}
+
+.header-left .bank-name {
+    font-weight: 700;
+    color: #0056b3;
+}
+
+.header-right p {
+    font-size: 13px;
+    color: #555;
+}
+
+.container {
+    display: flex;
+    padding: 25px;
+}
+
+.sidebar {
+    width: 90px;
+    background-color: #f1f1f1;
+    border-right: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 18px;
+}
+
+.menu-item {
+    margin: 12px 0;
+    text-align: center;
+    font-size: 13px;
+    color: #333;
+}
+
+.menu-item i {
+    font-size: 18px;
+    color: #0066cc;
+}
+
+.content {
+    flex: 1;
+    padding: 0 35px;
+}
+
+.content h2 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.content-item {
+    background-color: #fff;
+    margin-bottom: 18px;
+    padding: 17px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content-item h3 {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+
+.right-panel {
+    width: 230px;
+    background-color: #f1f1f1;
+    border-left: 1px solid #ccc;
+    padding: 22px;
+}
+
+.user-info {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.user-info i {
+    font-size: 42px;
+    color: #0066cc;
+}
+
+.user-info h4 {
+    margin: 8px 0;
+}
+
+.balance {
+    text-align: center;
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 22px;
+}
+
+.transaction-history h4 {
+    margin-bottom: 12px;
+}
+
+.transaction-item {
+    height: 28px;
+    background-color: #e0e0e0;
+    margin: 6px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 12px;
+    background-color: #2e2e2e;
+    color: #fff;
+}
+
+.footer-link {
+    display: inline-block;
+    padding: 9px 14px;
+    color: #444;
+    margin: 6px;
+    background-color: #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-link.disabled {
+    color: #888;
+    cursor: not-allowed;
+}
